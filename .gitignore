@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Course datasets stay on disk. They are large and are not part of this repository.
+data/*
+!data/.gitkeep
+
+# Duplicate of docs/IFT599-IFT799-TP1.pdf left at the root while that file is open.
+/science_de_donnees_TP1.pdf
